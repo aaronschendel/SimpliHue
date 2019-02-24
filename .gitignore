@@ -1,0 +1,4 @@
+*_config.json
+node_modules
+test.js
+my_*.json

@@ -1,0 +1,31 @@
+{
+  "name": "simplihue",
+  "version": "1.0.0",
+  "description": "Integrating Simplisafe's undocumented API with Phillips Hue",
+  "main": "polling_service.js",
+  "dependencies": {
+    "async-polling": "^0.2.1",
+    "node-hue-api": "^2.4.4",
+    "simplisafe-ss3": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "polling_service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aschen92/SimpliHue.git"
+  },
+  "keywords": [
+    "simplisafe",
+    "hue",
+    "phillips",
+    "ss3"
+  ],
+  "author": "Aaron Schendel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aschen92/SimpliHue/issues"
+  },
+  "homepage": "https://github.com/aschen92/SimpliHue#readme"
+}
