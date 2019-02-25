@@ -42,7 +42,7 @@ function beginPolling(ss3Client, hue_api, state, away_group_id, alarm_group_id) 
                             console.log('Alarm state: ' + alarmState);
                             if (alarmState == 'ALARM') {
                                 setLightsAlarm(hue_api, state, alarm_group_id);
-                            } else if (alarmState == 'HOME') { 
+                            } else if (alarmState == 'AWAY') { 
                                 setLightsAway(hue_api, state, away_group_id);
                             }
                             previousState = alarmState;
